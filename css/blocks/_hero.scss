@@ -1,0 +1,35 @@
+.header-wrapper {
+    position: relative;
+    padding-top: 52.5px;
+    background-image: url(../img/bgs/hero-green.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.hero {
+    &__headline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 268px;
+        left: 50%;
+        transform: translate(-50%);
+        & h2 {
+            font-family: $font-primary;
+            font-size: 64px;
+            line-height: 68px;
+            text-align: center;
+            color: $color-black;
+        }
+        & p {
+            max-width: 655px;
+            font-family: $font-secondary;
+            font-size: 22px;
+            line-height: 32px;
+            text-align: center;
+            color: $color-purple;
+            padding-top: 28px;
+        }
+    }
+}
