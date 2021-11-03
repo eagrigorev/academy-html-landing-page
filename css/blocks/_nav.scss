@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        padding-top: 20px;
+    }
+    &__sub {
+        display: flex;
+        align-items: center;
+        &__button {
+            &__text {
+                font-family: $font-primary;
+                font-size: 20px;
+                line-height: 24px;
+            }
+            & button {
+                display: inline-flex;
+                align-items: center;
+                border: none;
+                background: none;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            & svg {
+                padding-left: 4px;
+            }
+        }
+        &__form {
+            padding-left: 16px;
+            & input {
+                border: 2px solid $color-black;
+                border-radius: 25px;
+                box-shadow: 0px 2px $color-black;
+                text-decoration: underline;
+                min-width: 400px;
+                padding: 15px 54px 15px 21px;
+                font-family: $font-secondary;
+                color: $color-sub-form;
+                font-family: Hind;
+                font-size: 17px;
+                line-height: 26px;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}

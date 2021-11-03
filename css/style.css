@@ -1,0 +1,82 @@
+* {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__logo {
+  padding-top: 20px;
+}
+
+.nav__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__sub__button__text {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.nav__sub__button button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  background: none;
+}
+
+.nav__sub__button button:hover {
+  cursor: pointer;
+}
+
+.nav__sub__button svg {
+  padding-left: 4px;
+}
+
+.nav__sub__form {
+  padding-left: 16px;
+}
+
+.nav__sub__form input {
+  border: 2px solid #090b37;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 2px #090b37;
+          box-shadow: 0px 2px #090b37;
+  text-decoration: underline;
+  min-width: 400px;
+  padding: 15px 54px 15px 21px;
+  font-family: Hind;
+  color: #a0a0a0;
+  font-family: Hind;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.nav__sub__form input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
