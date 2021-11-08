@@ -66,7 +66,7 @@
 
 .nav__sub__form input {
   border: 2px solid #090b37;
-  border-radius: 25px;
+  border-radius: 30px;
   -webkit-box-shadow: 0px 2px #090b37;
           box-shadow: 0px 2px #090b37;
   text-decoration: underline;
@@ -106,6 +106,7 @@
   position: absolute;
   top: 268px;
   left: 50%;
+  max-width: 717px;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
@@ -126,5 +127,76 @@
   text-align: center;
   color: #3c2b84;
   padding-top: 28px;
+}
+
+.hero__sub {
+  position: absolute;
+  top: 529.5px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.hero__sub__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__sub__form input {
+  min-width: 640px;
+  font-family: Hind;
+  color: #a0a0a0;
+  font-size: 17px;
+  line-height: 26px;
+  text-decoration: underline;
+  padding: 27px 0 27px 38px;
+  border: 2px solid #090b37;
+  -webkit-box-shadow: 0px 2px #090b37;
+          box-shadow: 0px 2px #090b37;
+  border-radius: 42px;
+}
+
+.hero__sub__form input:focus {
+  outline: none;
+}
+
+.hero__sub__form button {
+  border: none;
+  border-radius: 35px;
+  background: #090b37;
+  margin-left: -128px;
+}
+
+.hero__sub__form button:hover {
+  cursor: pointer;
+}
+
+.hero__sub__form svg {
+  padding: 20.8px 47.2px;
+}
+
+.hero__sub__headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.hero__sub__headline svg {
+  padding-left: 32px;
+}
+
+.hero__sub__headline p {
+  padding-left: 16px;
+  font-family: Hind;
+  font-size: 17px;
+  line-height: 26px;
+  color: #3c2b84;
 }
 /*# sourceMappingURL=style.css.map */
