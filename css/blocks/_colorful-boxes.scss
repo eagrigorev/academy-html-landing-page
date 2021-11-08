@@ -1,0 +1,110 @@
+.colorful-boxes-wrapper {
+    background-image: url(../img/bgs/colorful-boxes-dark.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.colorful-boxes {
+    padding-top: 64px;
+    &__headline {
+        max-width: 720px;
+        &__top {
+            font-family: $font-primary;
+            & p {
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: $color-purple-dark;
+            }
+            & h2 {
+                padding-top: 5px;
+                font-size: 48px;
+                line-height: 54px;
+                color: $color-black;
+            }
+        }
+        &__bottom {
+            display: flex;
+            & svg {
+                padding-top: 35px;
+            }
+            & p {
+                max-width: 608px;
+                padding: 65px 0 0 24px;
+                font-family: $font-secondary;
+                color: $color-purple-dark;
+                font-size: 22px;
+                line-height: 32px;
+            }
+        }
+    }
+    &__cards {
+        position: relative;
+        &__item {
+            position: absolute;
+            display: flex;
+            width: 380px;
+            height: 400px;
+            border: 2px solid;
+            border-radius: 24px;
+            box-shadow: 6px 6px;
+            font-family: $font-primary;
+            & h2 {
+                padding: 20px 0 0 34px;
+                font-size: 64px;
+                line-height: 68px;
+            }
+            & p {
+                padding: 0 0 25px 189px;
+                text-align: right;
+                font-size: 48px;
+                line-height: 54px;
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+            }
+        }
+    }
+}
+.item {
+    &--01 {
+        z-index: 6;
+        background: #f4a59f;
+        color: #7c1d19; // Box-shadow, text, and border color override
+    }
+    &--02 {
+        z-index: 5;
+        top: 32px;
+        left: 154px;
+        background: #e284a0;
+        color: #6c1a45;
+    }
+    &--03 {
+        z-index: 4;
+        top: 64px;
+        left: 308px;
+        background: #f2ba89;
+        color: #945219;
+    }
+    &--04 {
+        z-index: 3;
+        top: 96px;
+        left: 462px;
+        background: #cdeec8;
+        color: #465b43;
+    }
+    &--05 {
+        z-index: 2;
+        top: 128px;
+        left: 616px;
+        background: #bbbffb;
+        color: #3c2b84;
+    }
+    &--06 {
+        z-index: 1;
+        top: 160px;
+        left: 770px;
+        background: #e8e9f1;
+        color: #090b37;
+    }
+}
