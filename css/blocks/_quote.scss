@@ -1,0 +1,10 @@
+.quote {
+    padding-top: 146px;
+    background-image: url(../img/bgs/quote-dark.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    &__headline {
+        background: $color-black;
+    }
+}

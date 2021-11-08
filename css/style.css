@@ -285,6 +285,7 @@
 }
 
 .colorful-boxes-wrapper {
+  padding-bottom: 460px;
   background-image: url(../img/bgs/colorful-boxes-dark.svg);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -338,6 +339,7 @@
 }
 
 .colorful-boxes__cards {
+  padding-top: 64px;
   position: relative;
 }
 
@@ -380,7 +382,7 @@
 
 .item--02 {
   z-index: 5;
-  top: 32px;
+  top: 96px;
   left: 154px;
   background: #e284a0;
   color: #6c1a45;
@@ -388,7 +390,7 @@
 
 .item--03 {
   z-index: 4;
-  top: 64px;
+  top: 128px;
   left: 308px;
   background: #f2ba89;
   color: #945219;
@@ -396,7 +398,7 @@
 
 .item--04 {
   z-index: 3;
-  top: 96px;
+  top: 160px;
   left: 462px;
   background: #cdeec8;
   color: #465b43;
@@ -404,7 +406,7 @@
 
 .item--05 {
   z-index: 2;
-  top: 128px;
+  top: 192px;
   left: 616px;
   background: #bbbffb;
   color: #3c2b84;
@@ -412,9 +414,21 @@
 
 .item--06 {
   z-index: 1;
-  top: 160px;
+  top: 224px;
   left: 770px;
   background: #e8e9f1;
   color: #090b37;
+}
+
+.quote {
+  padding-top: 146px;
+  background-image: url(../img/bgs/quote-dark.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+.quote__headline {
+  background: #090b37;
 }
 /*# sourceMappingURL=style.css.map */
