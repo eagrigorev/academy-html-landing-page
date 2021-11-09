@@ -421,14 +421,52 @@
 }
 
 .quote {
-  padding-top: 146px;
-  background-image: url(../img/bgs/quote-dark.svg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
+  background: #090b37;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .quote__headline {
-  background: #090b37;
+  padding-top: 376px;
+  max-width: 690px;
+}
+
+.quote__headline svg {
+  display: block;
+  margin: auto;
+}
+
+.quote__headline h2 {
+  padding-top: 8px;
+  font-family: Source Sans Pro;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 53px;
+  text-align: center;
+}
+
+.quote__author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px 0 184px 0;
+}
+
+.quote__author p {
+  font-family: Hind;
+  color: #c1c8f8;
+  font-size: 18px;
+  line-height: 26px;
 }
 /*# sourceMappingURL=style.css.map */

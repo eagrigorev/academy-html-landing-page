@@ -1,10 +1,33 @@
 .quote {
-    padding-top: 146px;
-    background-image: url(../img/bgs/quote-dark.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
+    background: $color-black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__headline {
-        background: $color-black;
+        padding-top: 376px;
+        max-width: 690px;
+        & svg {
+            display: block;
+            margin: auto;
+        }
+        & h2 {
+            padding-top: 8px;
+            font-family: $font-primary;
+            color: #ffffff;
+            font-size: 48px;
+            line-height: 53px;
+            text-align: center;
+        }
+    }
+    &__author {
+        display: flex;
+        align-items: center;
+        padding: 24px 0 184px 0;
+        & p {
+            font-family: $font-secondary;
+            color: #c1c8f8;
+            font-size: 18px;
+            line-height: 26px;
+        }
     }
 }
