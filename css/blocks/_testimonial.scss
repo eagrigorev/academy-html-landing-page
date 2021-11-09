@@ -1,0 +1,67 @@
+.testimonial {
+    background-image: url(../img/bgs/testimonial-dark.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    &__content {
+        z-index: 2;
+        position: absolute;
+        max-width: 556px;
+        padding-top: 66px;
+        &__top {
+            display: flex;
+            justify-content: space-between;
+            & svg {
+                padding: 19px 17px;
+            }
+            & button {
+                max-width: 62px;
+                max-height: 62px;
+                border: 1px solid #ffffff;
+                border-radius: 31px;
+                background: rgba(255, 255, 255, 0.3);
+                &:hover {
+                    cursor: pointer;
+                    border: 1px solid $color-black;
+                }
+            }
+        }
+        &__middle {
+            & h2 {
+                padding-top: 31px;
+                font-family: $font-primary;
+                color: $color-purple;
+                font-size: 20px;
+                line-height: 24px;
+            }
+            & p {
+                padding-top: 14px;
+                font-family: $font-secondary;
+                color: #333333;
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+        &__bottom {
+            padding-top: 35px;
+            font-family: $font-primary;
+            color: $color-black;
+            font-size: 14px;
+            line-height: 20px;
+            & button {
+                font-weight: 700;
+                border: none;
+                border-radius: 22px;
+                background: rgba(255, 255, 255, 0.4);
+                padding: 14px 20px;
+            }
+        }
+    }
+    &__card {
+        z-index: 1;
+        position: relative;
+    }
+}
