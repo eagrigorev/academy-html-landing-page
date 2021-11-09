@@ -1,0 +1,103 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 266px;
+    &__top {
+        &__headline {
+            max-width: 670px;
+            & h2 {
+                padding-bottom: 28px;
+                font-family: $font-primary;
+                color: $color-black;
+                font-size: 64px;
+                line-height: 68px;
+                text-align: center;
+            }
+            & p {
+                font-family: $font-secondary;
+                color: $color-purple-dark;
+                font-size: 21px;
+                line-height: 32px;
+                text-align: center;
+            }
+        }
+        &__sub {
+            padding-top: 64px;
+            &__form {
+                & form {
+                    display: flex;
+                    align-items: center;
+                }
+                & input {
+                    min-width: 628px;
+                    font-family: $font-secondary;
+                    color: $color-sub-form;
+                    font-size: 17px;
+                    line-height: 26px;
+                    text-decoration: underline;
+                    padding: 27px 0 27px 38px;
+                    border: 2px solid $color-black;
+                    box-shadow: 0px 2px $color-black;
+                    border-radius: 42px;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                & button {
+                    border: none;
+                    border-radius: 35px;
+                    background: $color-black;
+                    margin-left: -128px;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                & svg {
+                    padding: 20.8px 47.2px;
+                }
+            }
+        }
+    }
+    &__bottom {
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__links {
+            display: flex;
+            gap: 32px;
+            & button {
+                padding: 17px;
+                width: 60px;
+                height: 60px;
+                border: none;
+                border-radius: 30px;
+                background: #ebecf4;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        &__author {
+            padding-top: 22px;
+            & p {
+                font-family: $font-secondary;
+                color: $color-purple;
+                font-size: 22px;
+                line-height: 32px;
+            }
+        }
+        &__copyright {
+            padding: 32px 0 48px 0;
+            & p {
+                font-family: $font-secondary;
+                color: $color-purple-dark;
+                font-size: 16px;
+                line-height: 32px;
+                text-align: center;
+            }
+        }
+    }
+}
